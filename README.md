@@ -38,7 +38,7 @@ wait for the driver to run, scan the QR Code as instructed.
 Enjoy the bot :)
 
 ### Commands
-*These commands are used in WhatsApp (messaging the bot)*
+*These commands are used in WhatsApp (messaging the bot)* You can modify them as desired in the `func.py` file.
 * **$help:** print a list of all the command.
 * **$echo:** Repeats what you say.
 * **$weather [city]:** returns weather and temperature in given location.
