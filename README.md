@@ -2,30 +2,35 @@
 
 A selenium based WhatsApp bot developed in Python, using WhatsApp Web.
 
+<img src="img/Prev.gif" height="400" /> <img src="img/Prev.png" height="400" />
+
 ## Features:
 
-1. **completely customizable** (you can add/remove/modify any command you want easily)
+1. **Completely customizable:** you can add/remove/modify any command you want easily
 ```python
 # in the func.py file
 def yourCommand():
     return "Your Response"
 ```
+2. **Easy to use:** simply scan the QR code with your number and you're good to go!
 
+3. **Can be added to group chats!** most WhatsApp Bots can only be messaged directly, this isn't the case here :) 
 
+4. **Undetectable**: you don't need to worry about your number being banned from whatsapp.
 ## Installation
 
-clone the repository using :
+1. clone the repository using :
 ```bash
 git clone https://github.com/M7mdisk/whats-bot.git
 ```
-move to the cloned directory: `cd whats-bot`.
+2. move to the cloned directory: `cd whats-bot`.
 
-Install the required libraries using `pip`:
+3. Install the required libraries using `pip`:
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Usage
+_**TEMPORARY: you need to create an empty group called "ASDFGHJKL" and add the bot to it, you can leave it after that (this is just so the bot can receive unread messages and doesn't stay on the same chat)**_
 ```
 $ python3 main.py
 ```
