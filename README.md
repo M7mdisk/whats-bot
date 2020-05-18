@@ -1,6 +1,6 @@
 # Whatsapp-bot
 
-A selenium based WhatsApp bot developed in Python, using WhatsApp Web.
+A selenium based WhatsApp Web bot developed in Python.
 
 <img src="img/Prev.gif" height="400" /> <img src="img/Prev.png" height="400" />
 
