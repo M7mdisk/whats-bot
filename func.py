@@ -47,7 +47,7 @@ def echo(sent=''):
     return " ".join(sent) + '\n'
 
 
-hm = "Commands:\n*$echo:* Repeats what you say.\n*$weather [city]:* returns weather and temperature in given location.\n*$meme:* return random meme from reddit.\n*$youtube [subject]:* return first youtube search result on subject.\n*$wiki [topic]:* returns short summary on given topic _usually doesn't work well_.\n*$quote:* return famous quote.\n*$random:* return random useless fact.\n*$flip:* flips a coin."
+hm = "Commands:\n*$echo:* Repeats what you say.\n*$weather [city]:* returns weather and temperature in given location.\n*$meme:* return random meme from reddit.\n*$youtube [subject]:* return first youtube search result on subject.\n*$wiki [topic]:* returns short summary on given topic _usually doesn't work well_.\n*$quote:* return famous quote.\n*$random:* return random useless fact.\n*$flip:* flips a coin.\n"
 
 
 def help():

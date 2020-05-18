@@ -71,7 +71,6 @@ while True:
             if message_content[0] == "$":
                 response = func.fcommand(message_content)
                 text_box.send_keys(response)
-                continue
             if any(substring in message_content for substring in func.bad_words):
                 response = "Oi! DON'T SAY BAD WORDO! >:( \n"
                 text_box.send_keys(response)
@@ -90,6 +89,5 @@ while True:
 
         # Go To Empty Chat so that there are unread messages
         x_arg = '//span[contains(@title,' + '"ASDFGHJKL"' + ')]'
-        wait5.until(EC.presence_of_element_located((By.XPATH, x_arg)))
         driver.find_element_by_xpath(x_arg).click()
     sleep(1)
