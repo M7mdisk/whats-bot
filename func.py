@@ -12,8 +12,6 @@ import urllib.request
 import random as rn
 from bs4 import BeautifulSoup
 
-bad_words = ('fuck', 'shit', 'خرا', 'cunt', 'cock', 'bitch', 'faggot', 'gay')
-
 def fcommand(message):
     print("running")
     fcom = message.split(" ", 1)
@@ -41,9 +39,6 @@ def weather(country="kuwait"):
 
 def echo(sent=''):
     sent = sent.split()
-    for index, word in enumerate(sent):
-        if any(badword in word for badword in bad_words):
-            sent[index] = "".join(['*' if c.isalpha() else c for c in word])
     return " ".join(sent) + '\n'
 
 
