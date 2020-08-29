@@ -42,7 +42,6 @@ Enjoy the bot :)
 * **$help:** print a list of all the command.
 * **$echo:** Repeats what you say.
 * **$weather [city]:** returns weather and temperature in given location.
-* **$meme:** returns link to random meme from reddit r/memes.
 * **$youtube [subject]:** returns first youtube search result for given subject.
 * **$wiki [topic]:** returns short summary on given topic _needs to be a title of a wikipedia article or else won't work_.
 * **$quote:** returns famous quote.
