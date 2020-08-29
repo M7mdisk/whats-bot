@@ -22,8 +22,6 @@ wait5 = WebDriverWait(
 driver.get("https://web.whatsapp.com/")
 print("Please scan the QR Code from the number you would like the bot to be on")
 sleep(5)
-bad_words = ['fuck', 'shit', 'خرا', 'cunt', 'cock', 'bitch', 'faggot', 'gay']
-iam = ["i'm", 'i am', 'انا', 'أنا']
 
 def choose():
     sleep(0.1)
@@ -71,18 +69,6 @@ while True:
             if message_content[0] == "$":
                 response = func.fcommand(message_content)
                 text_box.send_keys(response)
-            if any(substring in message_content for substring in func.bad_words):
-                response = "Oi! DON'T SAY BAD WORDO! >:( \n"
-                text_box.send_keys(response)
-
-            for a in iam:
-                if a in message_content:
-                    res = 'Hi' + \
-                        message_content.split(a, 1)[1] + ", I am Dad :)\n"
-                    text_box.send_keys(res)
-
-            if 'smh' in message_content:
-                text_box.send_keys('m3lsh\n')
         except Exception as e:
             traceback.print_exc()
             pass
