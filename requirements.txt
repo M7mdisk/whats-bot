@@ -1,4 +1,4 @@
 wikipedia==1.4.0
-requests==2.20.0
+requests==2.31.0
 pyowm==2.10.0
 beautifulsoup4==4.9.1
